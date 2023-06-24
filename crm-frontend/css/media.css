@@ -1,0 +1,214 @@
+@media (max-width: 1100px) {
+  .table__data-id {
+    padding-right: 18px;
+  }
+
+  .table__data-fio {
+    padding-right: 13px;
+  }
+
+  .table__data-create {
+    padding-right: 39px;
+  }
+
+  .table__data-update {
+    padding-right: 28px;
+  }
+
+  .table__data-contacts {
+    padding-right: 40px;
+  }
+
+  .table-header__wrapper[data-table-header="createAt"] {
+    max-width: 83px;
+  }
+
+  .table-header__wrapper[data-table-header="updateAt"] {
+    max-width: 66px;
+  }
+
+  .sort-up[data-table-header="createAt"]::after,
+  .sort-down[data-table-header="createAt"]::after {
+    left: 57px;
+  }
+
+  .sort-up[data-table-header="updateAt"]::after,
+  .sort-down[data-table-header="updateAt"]::after {
+    left: 68px;
+  }
+}
+
+@media (max-width: 976px) {
+  .table__data-contacts {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 955px) {
+  .table__data-btns {
+    padding: 8px 20px 7px 0;
+  }
+
+  .table__data-btns .table__actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn__edit,
+  .btn__delete {
+    text-align: left;
+  }
+
+  .btn__edit {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 853px) {
+
+  .table__data-create,
+  .table__data-update {
+    padding: 10px 26px 10px 0;
+  }
+
+  .table-data-create__day {
+    margin-right: 0;
+  }
+
+  .table-data-create__wrapper,
+  .table-data-update__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 760px) {
+  .contacts {
+    max-width: none;
+  }
+
+  .contacts__wrapper {
+    overflow: scroll;
+  }
+
+  .contacts__content {
+    width: 720px;
+  }
+}
+
+@media (max-width: 720px) {
+  .search {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .input__search {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .search {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .general-title {
+    margin-bottom: 28px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .contacts {
+    padding: 0 10px;
+  }
+
+
+
+
+  .create__wrapper {
+    width: 300px;
+  }
+
+  .btn-close-form {
+    top: 7px;
+    right: 7px;
+  }
+
+  .form__title,
+  .form__label {
+    padding: 0 15px;
+  }
+
+  .form__contacts-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .choices {
+    width: 110px;
+  }
+
+  .new-contact__input {
+    width: 160px;
+  }
+
+  .has-value {
+    width: 133px;
+  }
+
+  .form__add-contacts {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+  }
+
+
+
+  .edit__wrapper {
+    width: 300px;
+  }
+
+  .btn-close-form-change {
+    top: 7px;
+    right: 7px;
+  }
+
+  .form-change__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .form-change__header {
+    padding: 0 15px;
+  }
+
+  .form-change__contacts {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+
+  .delete__wrapper {
+    width: 300px;
+  }
+
+  .btn-close-delete-form {
+    top: 7px;
+    right: 7px;
+  }
+}
